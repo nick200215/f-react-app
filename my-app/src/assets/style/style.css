@@ -167,7 +167,7 @@ header {
 
 .unique-demos {
   background-color: #f0f4f7;
-  width: 100vw;
+  width: 100%;
   justify-content: center;
   display: flex;
   padding: 80px 0;
@@ -333,7 +333,7 @@ header {
 /* <!-- ------------------------------ slider -------------------- --> */
 
 .slider {
-  width: 100vw;
+  width: 100%;
   justify-content: center;
   display: flex;
   padding: 80px 0;
