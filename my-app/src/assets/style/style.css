@@ -1,0 +1,738 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.wrapper {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* -------------------------------- Header ------------------------------------------ */
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.header-wrapp {
+  height: 87px;
+}
+
+.wrapper figure {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 156px;
+  height: 32px;
+}
+
+.wrapper .nav-button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.wrapper .nav-button nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.wrapper .nav-button nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.wrapper .nav-button button {
+  background-color: #0c5adb;
+  width: 156px;
+  height: 51px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.wrapper .nav-button button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* -------------------------------- inner images ------------------------------------------ */
+
+.text-center {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.inner-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 200px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  background-color: #dee2e5;
+  background-image: url(./../img/slider-bg.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 100%;
+}
+
+.inner-images h1 {
+  font-size: 40px;
+}
+
+.inner-images p {
+  font-size: 20px;
+}
+
+/* -------------------------------- programming languages ------------------------------------------ */
+
+.programming-languages {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.programming-languages .wrapper figure {
+  border: 1px black solid;
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+  align-items: center;
+  justify-content: center;
+}
+
+.programming-languages .wrapper figure figcaption {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  font-weight: bolder;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.programming-languages .wrapper figure {
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+/* ---------------------------------------Single-Price------------------------------- */
+
+.single-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dee2e5;
+  padding: 80px 0 80px 0;
+  box-sizing: border-box;
+}
+
+.single-price-wrapper {
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.single-price-wrapper h2 {
+  font-size: 40px;
+}
+
+.ready-quantity {
+  display: flex;
+  gap: 100px;
+}
+
+.ready-quantity-content h3 {
+  font-size: 40px;
+}
+
+.ready-quantity-content p {
+  font-size: 20px;
+}
+
+/*  --------------------- Unique Demos ----------------- */
+
+.unique-demos {
+  background-color: #f0f4f7;
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+  padding: 80px 0;
+}
+
+.wrapper-unique-demos {
+  display: flex;
+  flex-direction: column;
+}
+
+.unique-demos-title {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.unique-demos-list {
+  padding-bottom: 30px;
+}
+
+.unique-demos-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.unique-demos-list ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.unique-demos-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+.unique-demos-content figure {
+  display: flex;
+  flex-direction: column;
+}
+
+.unique-demos-content img {
+  /* width: 30%; */
+  width: 350px;
+}
+
+.unique-demos-content figure fieldset {
+  text-align: center;
+  padding: 10px 0 30px 0;
+  border: none;
+}
+
+/* ---------------------------------------best ui/ux------------------------------- */
+.best-uiux {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+}
+
+.wrapper-best-uiux {
+  display: flex;
+}
+
+.best-uiux-about {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.best-uiux-about-inner {
+  padding-top: 40px;
+}
+
+.best-uiux-about-inner p {
+  padding-top: 15px;
+}
+
+.best-uiux-about h1 {
+  font-size: 40px;
+}
+
+.wrapper-best-uiux figure img {
+  width: 100%;
+}
+
+/* ---------------------------------------coding style-------------------------------   */
+
+.coding-style {
+  padding: 80px 0;
+  box-sizing: border-box;
+  background-color: #f0f4f7;
+  display: flex;
+  justify-content: center;
+}
+
+.coding-style-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+}
+
+.coding-style-title h2 {
+  font-size: 40px;
+  /* padding-bottom: 30px; */
+}
+
+.coding-style-img img {
+  width: 100%;
+}
+
+/* -------------------------------- other ------------------------------------------ */
+
+.other {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.other-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.other .wrapper figure {
+  border: 1px black solid;
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+  align-items: center;
+  justify-content: center;
+}
+
+.other .wrapper figure img {
+  width: 30%;
+}
+
+.other .wrapper figure figcaption {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  font-weight: bolder;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.other .wrapper figure {
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+/* <!-- ------------------------------ slider -------------------- --> */
+
+.slider {
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+  padding: 80px 0;
+}
+
+/* ----------------------------------support-team----------------------------------- */
+.support-team {
+  display: flex;
+  justify-content: center;
+
+  background-color: #dee2e5;
+}
+.support-team-wrapper {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.support-team-title {
+  padding-bottom: 50px;
+  box-sizing: border-box;
+}
+
+.support-team-title h4 {
+  color: blue;
+}
+
+.support-team-title h1 {
+  font-size: 40px;
+}
+
+.support-team-img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.support-team-img figure img {
+  width: 250px;
+}
+
+/* ----------------------------------new features ----------------------------------- */
+.new-features {
+  background-color: white;
+}
+
+.new-features-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  row-gap: 30px;
+}
+
+.new-features-content figure {
+  border: 1px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  column-gap: 30px;
+  row-gap: 15px;
+}
+
+.main-bg {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./../img/bg-tech2.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 100vh;
+}
+
+/* ---------------------------------- blog style ----------------------------------- */
+
+.blog-style {
+  display: flex;
+  justify-content: center;
+  background-color: #dee2e5;
+}
+
+.blog-style-wrapper {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.blog-style-title {
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+
+/* ---------------------------------- responsive ----------------------------------- */
+
+.responsive-about {
+  display: flex;
+  justify-content: center;
+}
+
+.responsive-about h4 {
+  font-size: 40px;
+}
+
+/* ------------------------------------ Responsive ------------------------------------------ */
+
+/* ---------------------------------- ecommerce ready -----------------------------------  */
+
+.ecommerce-ready {
+  padding: 80px 0;
+  box-sizing: border-box;
+  background-color: #dee2e5;
+  display: flex;
+  justify-content: center;
+}
+
+.ecommerce-ready-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.custumers {
+  display: flex;
+  column-gap: 30px;
+}
+
+.single-custumer {
+  background-color: white;
+  width: 33%;
+  padding: 15px;
+  text-align: start;
+}
+
+.single-custumer figure {
+  display: flex;
+  column-gap: 15px;
+}
+
+.single-custumer p {
+  padding-top: 10px;
+}
+
+/* ---------------------------------- footer -----------------------------------  */
+
+footer {
+  background-color: #0c5adb;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.last-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 15%;
+  row-gap: 50px;
+  color: white;
+}
+
+.footer-about button {
+  width: 260px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  color: #0c5adb;
+  font-size: 20px;
+}
+
+.last-line {
+  color: white;
+}
+
+.last-line ul {
+  display: flex;
+  list-style: none;
+  column-gap: 30px;
+  padding-bottom: 30px;
+}
+
+.last-line a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 556px) {
+  header {
+    display: flex;
+  }
+
+  header .nav-button button {
+    display: none;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  .inner-images {
+    padding-top: 30%;
+    background-size: 100% 30%;
+  }
+
+  .languages-wrapper,
+  .single-price-wrapper,
+  .wrapper-best-uiux,
+  .other-wrapper,
+  .new-features-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .programming-languages .wrapper figure {
+    width: 90%;
+  }
+
+  .ready-quantity,
+  .other-wrapper {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .single-price-wrapper h2 {
+    text-align: center;
+    font-size: 31px;
+  }
+
+  .unique-demos {
+    display: flex;
+    justify-content: center;
+  }
+
+  .unique-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    width: 50px;
+  }
+
+  .unique-demos-title {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .unique-demos-title h2 {
+    width: 100%;
+    font-size: 40px;
+  }
+
+  .unique-inner figure {
+    width: 100%;
+  }
+
+  .unique-inner figure a {
+    width: 100%;
+  }
+
+  .unique-inner figure a img {
+    width: 100%;
+  }
+
+  .wrapper-unique-demos {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .unique-demos-content {
+    flex-direction: column;
+  }
+
+  .unique-demos-list ul {
+    column-gap: 10px;
+  }
+
+  .other .other-wrapper figure {
+    width: 90%;
+  }
+
+  .slider .wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .responsive-slider,
+  .unique-demos-content {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5px;
+  }
+
+  .responsive-slider figure {
+    width: 30%;
+  }
+
+  .responsive-slider figure img {
+    width: 100%;
+  }
+
+  .support-team-img {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+  }
+
+  .new-features .support-team-wrapper .new-features-content figure {
+    width: 90%;
+  }
+
+  .main-bg {
+    background-size: 100% 100%;
+    height: 40vh;
+  }
+
+  .blog-style-wrapper {
+    width: 90%;
+    align-items: center;
+  }
+
+  .best-uiux-about {
+    width: 90%;
+  }
+
+  .responsive-about {
+    text-align: center;
+  }
+  .ecommerce-ready .wrapper {
+    width: 90%;
+  }
+
+  .custumers {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .single-custumer {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .single-custumer figure {
+    display: flex;
+    padding-left: 30px;
+    box-sizing: border-box;
+  }
+
+  .single-custumer figure figcaption {
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .single-custumer figure {
+    width: 100%;
+  }
+
+  footer {
+    height: 70vh;
+  }
+
+  .last-line {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 20px;
+  }
+
+  .footer-about {
+    row-gap: 15px;
+  }
+
+  .footer-about h2 {
+    font-size: 40px;
+  }
+}
